@@ -9,4 +9,4 @@ Saya memilih MVVM karena lebih mudah digunakan daripada MVP. Dalam MVVM, perubah
 Sebagai contoh, dalam file Display, tampilan dapat berjalan dengan baik bahkan jika tidak ada model yang dibuat. Tampilan ini mereferensi ke viewModel, yang dalam contoh ini adalah file Game. Dengan menggunakan MVVM, Display dapat menampilkan tampilan dari Game dengan mudah dan terpisah dari kompleksitas logika bisnis di baliknya.
 
 ## Perbedaan dengan TMD
-Pada TMD saya menggunakan struktur MVVM juga, untuk penempatan file pada setiap package (Model/View/ViewModel) nya hampir sama antara program TMD (Keep Standing) saya dengan program LP12 (Synchronization) seperti menyimpan file game dan handler pada Viewmodel, file display dan menu pada View, serta gameObject dan player pada Model
+Pada TMD saya menggunakan struktur MVVM juga, untuk penempatan file pada setiap package (Model/View/ViewModel) nya hampir sama antara program TMD (Keep Standing) saya dengan program LP12 (Synchronization) seperti menyimpan file game dan handler pada Viewmodel, file display dan menu pada View, serta file gameObject dan player pada Model
